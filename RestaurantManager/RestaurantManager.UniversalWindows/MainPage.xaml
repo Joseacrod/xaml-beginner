@@ -21,9 +21,9 @@
                    HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
         <TextBlock Text="Internal Test Version" Foreground="White" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
                    HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="24"/>
-        <TextBlock Text="** Go To Orders View **" Foreground="White" Grid.Column="0" Grid.Row="2"
-                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock Text="** Submit Orders **" Foreground="White" Grid.Column="1" Grid.Row="2"
-                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="btOrders" Content="Go To Orders View" Grid.Column="0" Grid.Row="2"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" Click="btOrders_Click"/>
+        <Button x:Name="btSubmit" Content="Submit Orders" Grid.Column="1" Grid.Row="2"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" Click="btSubmit_Click"/>
     </Grid>
 </Page>
